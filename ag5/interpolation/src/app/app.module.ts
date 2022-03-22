@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { TestPropBindComponent } from './test-prop-bind/test-prop-bind.component';
+import { TestClassBindComponent } from './test-class-bind/test-class-bind.component';
+import { TeststylebindComponent } from './teststylebind/teststylebind.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
-    TestPropBindComponent
+    TestPropBindComponent,
+    TestClassBindComponent,
+    TeststylebindComponent,
   ],
   imports: [
     BrowserModule,
