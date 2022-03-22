@@ -7,6 +7,7 @@ import { TestComponent } from './test/test.component';
 import { TestPropBindComponent } from './test-prop-bind/test-prop-bind.component';
 import { TestClassBindComponent } from './test-class-bind/test-class-bind.component';
 import { TeststylebindComponent } from './teststylebind/teststylebind.component';
+import { TesteventbindComponent } from './testeventbind/testeventbind.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { TeststylebindComponent } from './teststylebind/teststylebind.component'
     TestPropBindComponent,
     TestClassBindComponent,
     TeststylebindComponent,
+    TesteventbindComponent,
   ],
   imports: [
     BrowserModule,
