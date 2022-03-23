@@ -1,10 +1,12 @@
 <div style="text-align: center;">
   <h1>
-    Welcome to {{title}}!
+    {{message}}
   </h1>
   <!--
   <app-test></app-test>
   <app-test2></app-test2>
-  -->
   <app-test3></app-test3>
+  -->
+  <app-interaction (childEvent)="message=$event" [parentData] = "name"></app-interaction>
+  <app-pipe></app-pipe>
 </div>

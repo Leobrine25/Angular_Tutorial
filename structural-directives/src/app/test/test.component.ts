@@ -34,7 +34,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
-  //displayName -> for ngIf
   displayName=true;
   constructor() { }
   
